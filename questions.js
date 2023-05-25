@@ -1,5 +1,20 @@
 
+
 const questions = [
+    {
+        type: 'input',
+        message: "Please enter your three letter logo",
+        name: "logoLetters",
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+
+            } else {
+                console.log('Please enter your three letter logo');
+                return false;
+            }
+        }
+    },
     {
         type: 'list',
         message: "What shape are you using for your Logo?",
@@ -16,20 +31,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: "Please enter your three letter logo",
-        name: "logoLetters",
-        validate: nameInput => {
-            if (nameInput) {
-                return true;
-            } else {
-                console.log('Please enter your three letter logo');
-                return false;
-            }
-        }
-    },
-    {
-        type: 'input',
-        message: "What color do you want to use for the text?",
+        message: "Choose text color - enter color keyword or a hexadecimal number?",
         name: "logoTextColor",
         validate: nameInput => {
             if (nameInput) {
@@ -42,7 +44,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: "What will be the shape's color?",
+        message: "Choose shape color - enter color keyword or a hexadecimal number?",
         name: "logoShapeColor",
         validate: nameInput => {
             if (nameInput) {
