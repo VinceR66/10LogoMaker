@@ -7,6 +7,7 @@ const questions = [
         name: "logoLetters",
         validate: nameInput => {
             if (nameInput) {
+
                 return true;
 
             } else {
