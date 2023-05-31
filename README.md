@@ -7,10 +7,13 @@ This is a Node.js command-line application that takes in user input to generate 
 
 ____________________________________________________________________
 ## Installation
-User will need to install Inquirer.
+User will need to install Inquirer, Node and Jest.
 
 ____________________________________________________________________
 ## Usage
+The application will be invoked by using the following command:
+
+node app.js
 
 ____________________________________________________________________
 ## License  :  MIT

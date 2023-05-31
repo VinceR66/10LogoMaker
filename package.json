@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/VinceR66/10LogoMaker#readme",
   "dependencies": {
+    "color-regex": "^1.0.2",
     "inquirer": "^8.2.5"
   },
   "devDependencies": {

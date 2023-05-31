@@ -6,13 +6,19 @@ const questions = [
         message: "Please enter your three letter logo",
         name: "logoLetters",
         validate: nameInput => {
-            if (nameInput) {
+            let length = nameInput.length;
+            if (length == 3) {
+
+                console.log(length);
 
                 return true;
 
             } else {
+
                 console.log('Please enter your three letter logo');
+
                 return false;
+
             }
         }
     },
