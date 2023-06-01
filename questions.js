@@ -1,4 +1,4 @@
-
+const { validateHTMLColorHex, validateHTMLColorName } = require('validate-color');
 
 const questions = [
     {
@@ -9,16 +9,11 @@ const questions = [
             let length = nameInput.length;
             if (length == 3) {
 
-                console.log(length);
-
                 return true;
 
             } else {
 
-
-                console.log('Please enter your three letter logo');
-
-                return false;
+                return 'Please enter your three letter logo';
 
             }
         }
@@ -42,7 +37,7 @@ const questions = [
         message: "Choose text color - enter color keyword or a hexadecimal number?",
         name: "logoTextColor",
         validate: nameInput => {
-            if (nameInput) {
+            if (validateHTMLColorName(nameInput) || (validateHTMLColorHex(nameInput))) {
                 return true;
             } else {
                 console.log('Please enter a text color');
@@ -55,7 +50,7 @@ const questions = [
         message: "Choose shape color - enter color keyword or a hexadecimal number?",
         name: "logoShapeColor",
         validate: nameInput => {
-            if (nameInput) {
+            if (validateHTMLColorName(nameInput) || (validateHTMLColorHex(nameInput))) {
                 return true;
             } else {
                 console.log('Please enter the color of the shape');

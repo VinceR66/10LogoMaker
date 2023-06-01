@@ -7,7 +7,7 @@ This is a Node.js command-line application that takes in user input to generate 
 
 ____________________________________________________________________
 ## Installation
-User will need to install Inquirer, Node and Jest.
+User will need to install Inquirer, Node, Validate-Color and Jest.
 
 ____________________________________________________________________
 ## Usage
@@ -21,11 +21,11 @@ ____________________________________________________________________
 ____________________________________________________________________
 ## Links  :
 
-Screencastify : url: https://somewhere.com
+Screencastify : https://drive.google.com/file/d1-CGrB67_-IVsGdlTIU0pypKyfxfXPQcoview
 
 Repository : https://github.com/VinceR66/10LogoMaker
 
-____________________________________________________________________
+_____________________________________________________________________
 ## Questions  :
 
 Please contact me at info@me.com with additional questions. 
