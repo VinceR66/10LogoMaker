@@ -21,8 +21,9 @@ ____________________________________________________________________
 ____________________________________________________________________
 ## Links  :
 
-Screencastify :
-Repository :
+Screencastify : url: https://somewhere.com
+
+Repository : https://github.com/VinceR66/10LogoMaker
 
 ____________________________________________________________________
 ## Questions  :

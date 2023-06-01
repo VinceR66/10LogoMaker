@@ -15,6 +15,7 @@ const questions = [
 
             } else {
 
+
                 console.log('Please enter your three letter logo');
 
                 return false;

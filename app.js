@@ -8,9 +8,11 @@ const createLogo = require('./createLogo.js');
 const { questions } = require("./questions");
 function askQuestions() {
     inquirer.prompt(questions).then(function (answers) {
+
         console.log(answers);
 
         return createLogo(answers);
+
     })
 
         .then(data => {
